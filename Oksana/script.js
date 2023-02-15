@@ -1,0 +1,10 @@
+var numArr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+for (var i = 0; i < numArr.length; i++) {
+    console.log(numArr[i]);
+    for (var v = 0; v < numArr.length; v++) {
+        console.log(numArr[i] + " x " + numArr[v] + " = " + numArr[i] * numArr[v]);
+    }
+}
+]);
+    }
+}
