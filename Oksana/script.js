@@ -1,4 +1,3 @@
-"use strict";
 //basic exercise 1
 // let numArr: number[] = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 // let result: any = document.getElementById("result");
@@ -30,19 +29,19 @@
 // }
 //end of basic exercise 3
 //basic exercise 2
-let person = [
-    { fName: "Oksana", lName: "Furman" }
-];
-let result1 = document.getElementById("result1");
-let result2 = document.getElementById("result2");
-let result3 = document.getElementById("result3");
-for (let i = 0; i < 10; i++) {
-    console.log(person[0].fName + " " + person[0].lName);
-    result1.innerHTML += person[0].fName + " " + person[0].lName + "<br>";
-    result2.innerHTML += person[0].fName + "<br>";
-    setTimeout(() => {
-        result3.innerHTML += person[0].lName + "<br>";
-        console.log(person[0].lName);
-    }, 5000);
-}
+// let person: {fName: string, lName: string}[] = [
+//     {fName: "Oksana", lName: "Furman"}
+// ];
+// let result1: any = document.getElementById("result1") as HTMLElement;
+// let result2: any = document.getElementById("result2") as HTMLElement;
+// let result3: any = document.getElementById("result3") as HTMLElement;
+// for(let i=0; i<10; i++){
+//     console.log(person[0].fName + " " + person[0].lName);
+//     result1.innerHTML += person[0].fName + " " + person[0].lName + "<br>";
+//     result2.innerHTML += person[0].fName + "<br>";
+//     setTimeout(() => {
+//         result3.innerHTML += person[0].lName + "<br>";
+//         console.log(person[0].lName)
+//       }, 5000);
+// }
 //end of basic exercise 2
