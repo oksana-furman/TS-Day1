@@ -1,10 +1,15 @@
-var numArr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-for (var i = 0; i < numArr.length; i++) {
+"use strict";
+//basic exercise 1
+let numArr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+let result = document.getElementById("result1");
+for (let i = 0; i < numArr.length; i++) {
     console.log(numArr[i]);
-    for (var v = 0; v < numArr.length; v++) {
+    result.innerHTML += "<br>" + numArr[i] + "<br>";
+    for (let v = 0; v < numArr.length; v++) {
         console.log(numArr[i] + " x " + numArr[v] + " = " + numArr[i] * numArr[v]);
+        result.innerHTML += numArr[i] + " x " + numArr[v] + " = " + numArr[i] * numArr[v] + "<br>";
     }
 }
-]);
-    }
-}
+//end of basic exercise 1
+//basic exercise 3
+let names = ["John",];
